@@ -51,10 +51,6 @@ class _MyBookingScreenState extends State<MyBookingScreen> {
       backgroundColor: AppColors.background,
       appBar: AppBar(
         title: Text("My Booking", style: TextStyles.jostBody1),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back, color: AppColors.grayScale100),
-          onPressed: () => Navigator.pop(context),
-        ),
         actions: const [
           Padding(
             padding: EdgeInsets.only(right: 16),
